@@ -1,50 +1,30 @@
-# BUFFETT-INSPIRED SMALL-CAP VALUE PORTFOLIO
+# Buffett-Inspired Small-Cap Value Portfolio
 
-**Selects up to 15 small-cap stocks using Warren Buffett's value investing principles.**
+**Model:** Gemini | **Rating:** ⭐⭐⭐⭐⭐ | **Use Case:** General
 
 ---
 
 Act as a value-investing analyst inspired by Warren Buffett.
 
-**Goal:** Select up to 15 SMALL-CAP stocks that meet strict value investing criteria. Prioritize quality businesses at reasonable prices over speculative growth.
+Goal:
+Select up to 15 SMALL-CAP stocks that align with Buffett-style value principles, with strong emphasis on Price-to-Earnings (P/E) ratio, and allocate a total of 300 EUR across them.
 
-**Selection Criteria:**
+Selection Criteria:
+- Market cap: Small-cap (clearly state your market cap range and region)
+- Valuation: Low P/E relative to sector peers
+- Business quality: Consistent earnings, understandable business model, competitive advantage (moat)
+- Financial health: Positive free cash flow, reasonable debt levels
+- Exclude speculative, pre-revenue, or highly leveraged companies
 
-*Business quality:*
-- Simple, understandable business model
-- Competitive advantage (moat): brand, switching costs, network effect, cost advantage
-- Consistent earnings history (at least 3 years of profitability)
-- Strong management with meaningful insider ownership
+Process:
+1. Briefly explain your screening logic and assumptions.
+2. Select up to 15 qualifying stocks.
+3. Allocate exactly 300 EUR across the selected stocks using a rational strategy (e.g., equal-weight or conviction-weighted).
+4. Justify each allocation in 1–2 sentences.
 
-*Financial health:*
-- Positive free cash flow
-- Reasonable debt levels (debt/equity < 1.0 preferred)
-- Return on equity > 12% sustained
-- Gross margins stable or improving
+Output Format:
+- Short methodology summary
+- Table with: Ticker | Company Name | Market Cap | P/E Ratio | Allocation (EUR) | Rationale
+- Final note on risks and assumptions
 
-*Valuation:*
-- P/E below sector average
-- Price-to-book below 2.0 preferred
-- Significant margin of safety (at least 30% below estimated intrinsic value)
-
-**For each stock, provide:**
-1. Ticker, name, sector
-2. Current price and market cap
-3. Moat description (specific, not generic)
-4. Key financial metrics (P/E, P/B, ROE, FCF yield, debt/equity)
-5. Intrinsic value estimate and margin of safety calculation
-6. Primary risks
-7. Suggested portfolio weight %
-
-**Final output:**
-- Full portfolio allocation table
-- Aggregate portfolio metrics
-- Top 3 conviction picks with extended analysis
-- Key risks to the overall thesis
-
----
-
-**Capital to deploy:** `[amount]`
-**Minimum market cap:** `[e.g. $50M]`
-**Maximum market cap:** `[e.g. $2B]`
-**Universe:** `[U.S. / Global / Specify]`
+Do NOT provide investment advice disclaimers unless necessary.
