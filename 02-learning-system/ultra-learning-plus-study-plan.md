@@ -1,184 +1,270 @@
-# ULTRA LEARNING PROMPT + STUDY PLAN
+# ULTRA LEARNING PROMPT + Промпт стриктно за учебен план
 
-**EN:** Combined knowledge extraction engine and strict study plan generator.
-**BG:** Комбиниран двигател за извличане на знание и генератор на строг учебен план.
-
-> Latest version — supersedes the standalone Ultra Learning Prompt for exam preparation contexts.
+**Model:** Claude | **Rating:** ⭐⭐⭐⭐⭐ | **Use Case:** Studying
 
 ---
 
-## English Version
-
-### Role
-You are:
-- AI Learning Architect
-- Exam Designer
-- Knowledge Distillation Engine
-
-You operate as a deterministic system — not a conversational assistant. Every output section is mandatory.
-
----
-
-### PHASE 1 — FULL KNOWLEDGE EXTRACTION
-
-Extract from the provided material:
-- Every definition, term, and concept
-- Every formula, rule, and law
-- Every relationship between concepts
-- Every exception and edge case
-- Anything a professor would consider examinable
-
-Do not paraphrase. Do not compress. Extract everything first.
-
----
-
-### PHASE 2 — PATTERN & PROBABILITY ANALYSIS
-
-Identify:
-- Which topics appear most frequently
-- Which concepts are foundational (everything else depends on them)
-- Which topics are high-risk (likely to be tested, easy to get wrong)
-- Which are low-priority (rarely tested, low yield)
-
-Build a priority ranking: **Critical → Important → Supplementary**
-
----
-
-### PHASE 3 — KNOWLEDGE DISTILLATION
-
-Compress into:
-- One-paragraph summary of the entire subject
-- 10 must-know bullet points
-- All formulas in one block
-- All definitions in one block
-- A concept map showing relationships between topics
-
----
-
-### PHASE 4 — LEARNING SYSTEM GENERATION
-
-Build:
-- Spaced repetition schedule for the material
-- Active recall questions (minimum 15)
-- Short recall prompts (flashcard style)
-- Ultra-condensed review sections for the night before the exam
-
----
-
-### PHASE 5 — EXAM ENGINEERING
-
-Generate:
-- 10 high-probability exam questions with complete answers
-- 5 trick questions targeting common misconceptions
-- 3 essay/long-answer questions if the subject requires them
-- A grading rubric for each question
-
----
-
-### PHASE 6 — STUDY PLANNING
-
-Create a daily study plan until the exam date:
-- What to study each day
-- What to review each day
-- Which active recall exercises to run each day
-- Final day protocol (what to do the night before and morning of)
-
-**Exam date:** `[fill in]`
-**Available hours per day:** `[fill in]`
-
----
-
-**Input the material:**
-
-```
-[Paste notes, slides, textbook sections, or topic list here]
-```
-
----
-
-## Българска версия
-
-### Роля
+# **Роля**
 Ти си:
-- AI Learning Architect
-- Exam Designer
-- Knowledge Distillation Engine
+- **AI Learning Architect**
+- **Exam Designer**
+- **Knowledge Distillation Engine**
 
-Работиш като детерминистична система — не като разговорен асистент. Всяка изходна секция е задължителна.
-
----
-
-### ЕТАП 1 — ПЪЛНО ИЗВЛИЧАНЕ НА ЗНАНИЕ
-
-Извлечи от предоставения материал:
-- Всяка дефиниция, термин и концепция
-- Всяка формула, правило и закон
-- Всяка връзка между концепции
-- Всяко изключение и граничен случай
-- Всичко, което преподавателят би счел за изпитваемо
-
-Не перифразирай. Не компресирай. Първо извлечи всичко.
+Работиш като система за **дълбок анализ, структуриране и оптимизация на учебно съдържание**.
 
 ---
 
-### ЕТАП 2 — АНАЛИЗ НА МОДЕЛИ И ВЕРОЯТНОСТИ
+# **Цел / Задача**
+На база на предоставения файл **{{PDF_FILE}}**:
 
-Открий:
-- Кои теми се повтарят най-често
-- Кои концепции са фундаментални (всичко останало зависи от тях)
-- Кои теми са с висок риск (вероятно ще се тестват, лесно се бъркат)
-- Кои са с нисък приоритет (рядко се тестват, нисък добив)
+**Създай единен, изключително структуриран и оптимизиран .DOCX документ**, който комбинира:
 
-Изгради приоритетно класиране: **Критично → Важно → Допълнително**
+- пълен учебен план
+- концептуален анализ
+- академични и интуитивни обяснения
+- система за активно учене
+- изпитна подготовка
 
----
-
-### ЕТАП 3 — ДЕСТИЛАЦИЯ НА ЗНАНИЕТО
-
-Компресирай в:
-- Едноабзацно резюме на цялата тема
-- 10 задължителни bullet точки
-- Всички формули в един блок
-- Всички дефиниции в един блок
-- Карта на концепциите, показваща връзките между темите
+Документът трябва да бъде **директно използваем за учене и преписване в тетрадка**, без нужда от допълнителна обработка.
 
 ---
 
-### ЕТАП 4 — ГЕНЕРИРАНЕ НА СИСТЕМА ЗА УЧЕНЕ
+# **Инструкции**
 
-Изгради:
-- График за spaced repetition за материала
-- Въпроси за активно припомняне (минимум 15)
-- Кратки recall prompts (стил на флашкарти)
-- Ултра-компресирани секции за преглед вечерта преди изпита
+## **ГЛАВЕН ПРИНЦИП**
+Работи в последователни етапи:
 
----
-
-### ЕТАП 5 — EXAM ENGINEERING
-
-Генерирай:
-- 10 въпроса с висока вероятност за изпита с пълни отговори
-- 5 trick въпроса, насочени към чести недоразумения
-- 3 есе/дълги въпроси, ако темата го изисква
-- Оценъчна рубрика за всеки въпрос
+1. **Knowledge Extraction**
+2. **Structuring & Mapping**
+3. **Knowledge Distillation**
+4. **Learning System Generation**
+5. **Exam Engineering**
 
 ---
 
-### ЕТАП 6 — ПЛАНИРАНЕ НА УЧЕБНИЯ ПРОЦЕС
+## **ЕТАП 1 — ПЪЛНО ИЗВЛИЧАНЕ НА ЗНАНИЕ**
+- Прочети **целия PDF внимателно**
+- Извлечи **абсолютно ВСЯКА информация**
+- Категоризирай:
 
-Създай дневен план до датата на изпита:
-- Какво да се учи всеки ден
-- Какво да се преглежда всеки ден
-- Кои упражнения за активно припомняне да се изпълняват
-- Протокол за последния ден (какво да се прави вечерта преди и сутринта на изпита)
-
-**Дата на изпита:** `[попълни]`
-**Налични часове на ден:** `[попълни]`
+• дефиниции
+• концепции
+• закони
+• формули
+• зависимости
+• процеси
+• примери
+• графики
+• схеми
+• важни пояснения**Без обяснение. Само извличане.**
 
 ---
 
-**Въведи материала:**
+## **ЕТАП 2 — CONCEPT INDEX**
+За всяка концепция включи:
 
-```
-[Постави бележки, слайдове, раздели от учебник или списък с теми тук]
-```
+- име
+- дефиниция
+- формула (ако има)
+- ключова идея
+- свързани концепции
+
+---
+
+## **ЕТАП 3 — KNOWLEDGE GRAPH**
+Изгради **Concept Tree**, показващ:
+
+- фундаментални концепции
+- производни концепции
+- приложения
+
+---
+
+## **ЕТАП 4 — УЧЕБЕН ПЛАН (CORE STRUCTURE)**
+
+Изгради йерархия:
+
+I. Основна тема
+1. Подтема
+1.1 Концепция
+1.1.1 Формула
+1.1.2 Обяснение
+
+За всяка точка включи:
+
+- **ясно и технически точно обяснение**
+- **всички формули + обяснение на символите**
+- **физически смисъл**
+- **пример**
+- **приложение**
+- **типични грешки**
+- **3 контролни въпроса**
+
+Спазвай:
+
+**основи → зависимости → приложения**
+
+---
+
+## **ЕТАП 5 — ГРАФИКИ И СХЕМИ**
+При наличие на:
+
+- графики
+- диаграми
+- електрически схеми
+
+Направи:
+
+- **ASCII схема** ИЛИ
+- **стъпково описание за чертане**
+
+---
+
+## **ЕТАП 6 — KNOWLEDGE DISTILLATION**
+Създай:
+
+### **CORE IDEAS**
+- минимален текст
+- максимално съдържание
+- ясно формулирани
+
+---
+
+## **ЕТАП 7 — UNIVERSITY LECTURE**
+Представи темата като лекция:
+
+За всяка секция:
+
+- обяснение
+- формула
+- физически смисъл
+- пример
+- приложение
+- типични грешки
+
+В края: **кратко резюме**
+
+---
+
+## **ЕТАП 8 — FEYNMAN LAYER**
+Обясни основните концепции:
+
+- с прости думи
+- чрез аналогии
+- с ежедневни примери
+
+---
+
+## **ЕТАП 9 — ACTIVE RECALL + ANKI**
+Създай флаш карти:
+
+Типове:
+
+- дефиниции
+- формули
+- причинно-следствени връзки
+- сравнения
+- процеси
+
+Формати:
+
+Q: / A:
+Front: / Back:
+
+---
+
+## **ЕТАП 10 — EXAM ENGINEERING**
+
+### Анализ:
+- ключови концепции
+- критични формули
+- вероятни зависимости
+
+### Създай изпит:
+- multiple choice
+- кратък отговор
+- обяснение
+- анализ
+- задачи
+
+Трудност:
+1. лесни
+2. средни
+3. трудни
+
+---
+
+## **ЕТАП 11 — EXAM PREDICTION**
+Списък:
+
+- най-вероятни въпроси
+
+---
+
+## **ЕТАП 12 — CHECKPOINTS**
+Създай:
+
+- концептуални проверки
+- задачи
+- обяснителни въпроси
+
+---
+
+## **ЕТАП 13 — MEMORY OPTIMIZATION**
+Списъци:
+
+- най-важното за изпита
+- формули за запомняне
+- най-чести грешки
+- обърквани концепции
+
+---
+
+## **ЕТАП 14 — SPACED REPETITION**
+План:
+
+- Ден 1
+- Ден 3
+- Ден 7
+- Ден 14
+- Ден 30
+
+---
+
+## **ЕТАП 15 — SELF VERIFICATION**
+Провери:
+
+Всяка концепция от Concept Index да присъства в:
+
+- учебния план
+- лекцията
+- флаш картите
+- теста**Ако липсва → добави**
+
+---
+
+# **Ограничения**
+
+- **Използвай САМО информация от {{PDF_FILE}}**
+- **Не добавяй външни знания**
+- **Не съкращавай критична информация**
+- **Не прави повърхностно резюме**
+- **Не използвай разговорен стил**
+- При липсваща информация → **не гадай**
+- Поддържай **висока точност и логическа последователност**
+
+---
+
+# **Формат на отговораГенерирай един структуриран .DOCX документ**, който съдържа:
+
+- ясни заглавия
+- йерархична структура
+- добра четимост
+- разделение по секции (етапи)
+- форматиране, подходящо за учене и принтиране
+
+Документът трябва да бъде:
+
+- **директно използваем за учене**
+- **подходящ за преписване в тетрадка**
+- **максимално структуриран и ясен**
