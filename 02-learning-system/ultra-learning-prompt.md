@@ -300,17 +300,3 @@ Checkpoint 3:
 • добра структура
 • лесна четимост
 • готовност за директно учене.
-
-Explain [TOPIC] to a complete beginner in simple, plain English.
-
-Requirements:
-- Start with a one-sentence definition.
-- Explain the main idea step by step without assuming prior knowledge.
-- Define each important term in simple words when it first appears.
-- Use one clear, practical example.
-- Briefly compare it with similar concepts when useful.
-- Point out common misunderstandings.
-- If programming is involved, include a short, beginner-friendly code example and explain what it does.
-- Avoid unnecessary jargon, advanced details, and long explanations.
-- Use short, clear sections.
-- End with a brief “Easiest way to remember it” summary.
